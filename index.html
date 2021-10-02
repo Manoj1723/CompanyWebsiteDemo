@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="icon" href="logo.jpg">
+    <title>New Arrivals</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="query.js"></script>
+</head>
+<nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top"> New Arrivals
+        </a>
+        <span class="navbar-text">
+         New items as always...
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-tabs navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ourproduct.html">Our Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="row" style="justify-content: center;">
+            <div class="col-md-3 col-sm-6">
+                <div class="counter">
+                    <span class="counter-value">245</span>
+                    <h3>New Arrivals</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="counter purple">
+                    <span class="counter-value">5765</span>
+                    <h3>Items Sold</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="counter blue">
+                    <span class="counter-value">89427</span>
+                    <h3>Avg. Customer Visit</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="phead">
+        <h2>Our Latest Product</h2>
+    </div>
+
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-8 m-auto">
+                <div class="owl-carousel owl-theme">
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="1.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4><span style="color: rosybrown;">Puma</span> Shoes</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="2.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4><span style="color: rosybrown;">Puma</span> T-shirt</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="3.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4><span style="color: rosybrown;">Puma</span> Track Pants</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="4.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4><span style="color: rosybrown;">Armani</span> Formal Shirt</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="5.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4><span style="color: rosybrown;">Kanchivaram</span> Saree</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="6.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4><span style="color: rosybrown;">Mysore Silk</span> Saree</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="7.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4><span style="color: rosybrown;">Armani</span> Blazers</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="text-align: end; margin-right: 10%;"><a href="ourproduct.html" style="color: red;"> > View all products</a>
+    </p>
+    <div class="container" style="margin-bottom: 3%;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading" style="color: blueviolet;">
+                    <h2>About New Arrivals</h2>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="left-content">
+                    <h4>Looking for the best products?</h4>
+                    <p> <span style="color: blueviolet;"> Lorem ipsum </span>dolor sit amet consectetur adipisicing elit. Omnis repellendus cupiditate rem minus aliquam ullam dolore blanditiis eius sunt? Veritatis blanditiis eveniet quasi reiciendis quisquam
+                        impedit amet delectus sequi porro.
+                        <a href="contactus.html" style="text-decoration: none;">Contact us</a> for more info.</p>
+                    <ul class="featured-list">
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur an adipisicing elit</li>
+                        <li>It aquecorporis nulla aspernatur</li>
+                        <li>Corporis, omnis doloremque</li>
+                        <li>Non cum id reprehenderit</li>
+                    </ul>
+                    <br>
+                    <a href="aboutus.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-image">
+                    <img src="feature-image.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container1" style="margin-bottom: 3%; padding: 2%;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4><b>Creative &amp; Unique</b><em style="color: chocolate;"> Custom</em> Products</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite arnament haki.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a href="#" class="btn btn-outline-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; margin: 3%;">
+        <p>Copyright &copy; 2021 New Arrivals Ltd. - Design: <span style="color:purple"><b>Roronova Zoro</b></span></p>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
